@@ -21,7 +21,7 @@ class Customers extends Migration
             $table->string('city',100)->nullable();
             $table->string('address',120)->nullable();
             $table->string('password',200);
-            $table->string('token',50)->nullable();
+            $table->string('token',200)->nullable();
             
         });
     }
